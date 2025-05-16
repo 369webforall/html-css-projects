@@ -33,3 +33,49 @@ h2 {
   font-weight: 700;
   font-style: normal;
 }
+
+.main {
+  padding: 20px;
+}
+img,
+h1,
+p {
+  margin-bottom: 16px;
+  display: block;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.boxa {
+  background-color: var(--bright-orange);
+  padding: 3vmax;
+  color: var(--para-white);
+}
+
+.boxb {
+  background-color: var(--darkcyan);
+  padding: 3vmax;
+  color: var(--para-white);
+}
+
+.boxc {
+  background-color: var(--vdc);
+  padding: 3vmax;
+  color: var(--para-white);
+}
+
+h1 {
+  font-size: 5vmax;
+}
+
+p {
+  font-size: 15px;
+}
+
+@media (min-width: 370px) {
+  .flex {
+    flex-direction: row;
+  }
+}
